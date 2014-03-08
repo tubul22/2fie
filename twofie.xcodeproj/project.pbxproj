@@ -19,6 +19,11 @@
 		CE9CAEB718CB38F70031E592 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9CAE9F18CB38F70031E592 /* UIKit.framework */; };
 		CE9CAEBF18CB38F70031E592 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE9CAEBD18CB38F70031E592 /* InfoPlist.strings */; };
 		CE9CAEC118CB38F70031E592 /* twofieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9CAEC018CB38F70031E592 /* twofieTests.m */; };
+		CE9CAED018CB4C2F0031E592 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9CAECF18CB4C2F0031E592 /* FacebookSDK.framework */; };
+		CE9CAED418CB52770031E592 /* CameraZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9CAED218CB52770031E592 /* CameraZViewController.m */; };
+		CE9CAED518CB52770031E592 /* CameraZViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE9CAED318CB52770031E592 /* CameraZViewController.xib */; };
+		CE9CAED918CB57A00031E592 /* laumcherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9CAED718CB57A00031E592 /* laumcherViewController.m */; };
+		CE9CAEDA18CB57A00031E592 /* laumcherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE9CAED818CB57A00031E592 /* laumcherViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +53,14 @@
 		CE9CAEBC18CB38F70031E592 /* twofieTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "twofieTests-Info.plist"; sourceTree = "<group>"; };
 		CE9CAEBE18CB38F70031E592 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE9CAEC018CB38F70031E592 /* twofieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = twofieTests.m; sourceTree = "<group>"; };
+		CE9CAECF18CB4C2F0031E592 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		CE9CAED118CB52770031E592 /* CameraZViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraZViewController.h; sourceTree = "<group>"; };
+		CE9CAED218CB52770031E592 /* CameraZViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraZViewController.m; sourceTree = "<group>"; };
+		CE9CAED318CB52770031E592 /* CameraZViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraZViewController.xib; sourceTree = "<group>"; };
+		CE9CAED618CB57A00031E592 /* laumcherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = laumcherViewController.h; sourceTree = "<group>"; };
+		CE9CAED718CB57A00031E592 /* laumcherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = laumcherViewController.m; sourceTree = "<group>"; };
+		CE9CAED818CB57A00031E592 /* laumcherViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = laumcherViewController.xib; sourceTree = "<group>"; };
+		CE9CAEDB18CB58290031E592 /* FaceBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceBook.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +69,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE9CAE9E18CB38F70031E592 /* CoreGraphics.framework in Frameworks */,
+				CE9CAED018CB4C2F0031E592 /* FacebookSDK.framework in Frameworks */,
 				CE9CAEA018CB38F70031E592 /* UIKit.framework in Frameworks */,
 				CE9CAE9C18CB38F70031E592 /* Foundation.framework in Frameworks */,
 			);
@@ -96,6 +110,7 @@
 		CE9CAE9A18CB38F70031E592 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CE9CAECF18CB4C2F0031E592 /* FacebookSDK.framework */,
 				CE9CAE9B18CB38F70031E592 /* Foundation.framework */,
 				CE9CAE9D18CB38F70031E592 /* CoreGraphics.framework */,
 				CE9CAE9F18CB38F70031E592 /* UIKit.framework */,
@@ -107,8 +122,15 @@
 		CE9CAEA118CB38F70031E592 /* twofie */ = {
 			isa = PBXGroup;
 			children = (
+				CE9CAED118CB52770031E592 /* CameraZViewController.h */,
+				CE9CAED218CB52770031E592 /* CameraZViewController.m */,
+				CE9CAED318CB52770031E592 /* CameraZViewController.xib */,
 				CE9CAEAA18CB38F70031E592 /* AppDelegate.h */,
 				CE9CAEAB18CB38F70031E592 /* AppDelegate.m */,
+				CE9CAED618CB57A00031E592 /* laumcherViewController.h */,
+				CE9CAED718CB57A00031E592 /* laumcherViewController.m */,
+				CE9CAED818CB57A00031E592 /* laumcherViewController.xib */,
+				CE9CAEDB18CB58290031E592 /* FaceBook.h */,
 				CE9CAEAD18CB38F70031E592 /* Images.xcassets */,
 				CE9CAEA218CB38F70031E592 /* Supporting Files */,
 			);
@@ -219,8 +241,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE9CAED518CB52770031E592 /* CameraZViewController.xib in Resources */,
 				CE9CAEA618CB38F70031E592 /* InfoPlist.strings in Resources */,
 				CE9CAEAE18CB38F70031E592 /* Images.xcassets in Resources */,
+				CE9CAEDA18CB57A00031E592 /* laumcherViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE9CAED418CB52770031E592 /* CameraZViewController.m in Sources */,
 				CE9CAEAC18CB38F70031E592 /* AppDelegate.m in Sources */,
 				CE9CAEA818CB38F70031E592 /* main.m in Sources */,
+				CE9CAED918CB57A00031E592 /* laumcherViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +385,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/user/Documents/FacebookSDK,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "twofie/twofie-Prefix.pch";
 				INFOPLIST_FILE = "twofie/twofie-Info.plist";
@@ -372,6 +402,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/user/Documents/FacebookSDK,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "twofie/twofie-Prefix.pch";
 				INFOPLIST_FILE = "twofie/twofie-Info.plist";
